@@ -1,0 +1,112 @@
+.brewery-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: #ccc;
+  }
+  .detailscontainerbrewery{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    width: 100vw;
+    background-color: #ffffff;
+   
+
+  }
+  .Detailsimage{
+    height: 400px;
+    width: 500px;
+    margin-left: 120px;
+   
+  }
+  
+  .brewery-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .brewery-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .brewery-info p {
+    margin: 5px 0;
+  }
+  
+  .add-review {
+    margin-top: 20px;
+  }
+  
+  .add-review input, .add-review textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-review button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-review button:hover {
+    background-color: #218838;
+  }
+  
+  .brewery-image {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .brewery-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .recent-reviews {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+  .reviewscontainerdetails{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .recent-reviews .review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .recent-reviews .review p {
+    margin: 5px 0;
+  }
+  .review{
+    background-color: #ffffff;
+    width: 200px;
+    padding: 20px !important;
+    border-radius: 5px;
+    margin: 20px;
+ 
+
+  }
+ 
+  
